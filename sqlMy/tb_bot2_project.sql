@@ -42,7 +42,6 @@ CREATE TABLE `project` (
 
 LOCK TABLES `project` WRITE;
 /*!40000 ALTER TABLE `project` DISABLE KEYS */;
-INSERT INTO `project` VALUES (1,501841070,'йоу','да','ммм','3-4','adopted','null',0),(2,501841070,'мтлукмтку','ткоутомку','ттктк','да','adopted','null',501841070),(3,501841070,'мктутмткуомтуко','ммммммммммм','иииииииии','ку','adopted','null',0),(4,501841070,'мктумутм','ки','йййй','мммм','adopted','null',0),(5,501841070,'ьммьм','ьмьмьмьмьмь','щкщкщкщкщ','мтмтмтмтм','not verified','null',0),(6,501841070,'мткмту','шишишиши','куукуку','з','not verified','null',0);
 /*!40000 ALTER TABLE `project` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-09-08 21:40:20
+-- Dump completed on 2023-09-08 22:24:26
