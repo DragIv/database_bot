@@ -23,17 +23,17 @@ DROP TABLE IF EXISTS `project`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `project` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `idProject` int NOT NULL AUTO_INCREMENT,
   `id_manager` bigint DEFAULT NULL,
   `title` text,
   `type` text,
-  `description` text,
+  `descriptionProject` text,
   `requirements` text,
-  `state` text,
+  `stateProject` text,
   `comment` text,
-  `id_moder` bigint DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `loginModerator` bigint DEFAULT NULL,
+  PRIMARY KEY (`idProject`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +42,7 @@ CREATE TABLE `project` (
 
 LOCK TABLES `project` WRITE;
 /*!40000 ALTER TABLE `project` DISABLE KEYS */;
+INSERT INTO `project` VALUES (7,501841070,'мку','икуи','уккум','ику','adopted','null',0),(8,501841070,'мкуьмьмьу','мтитти','кку','3','not verified','null',0);
 /*!40000 ALTER TABLE `project` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-09-08 22:24:26
+-- Dump completed on 2023-09-10  2:10:13
